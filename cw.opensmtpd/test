@@ -6,7 +6,6 @@
 install_ansible ${test_ansible_version}
 ansible_plugins
 
-
 assert_playbook_runs
 assert_playbook_idempotent
 
